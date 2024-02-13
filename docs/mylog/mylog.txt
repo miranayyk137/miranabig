@@ -1,7 +1,10 @@
 Version----
 。。。。。。
+Version----1.0.3
+更新gorgit.txt
 Version----1.0.2
 更改文件mylog.docx成mylog.txt
+添加gorgit.txt
 Version----1.0.1
 1创建此miranabig项目，引此为框架
 2目标小系统。计算器，模块，框架，系统，库。。。

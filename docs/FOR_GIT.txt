@@ -1,1 +1,8 @@
 originn
+1。。。。。。。。。
+git常用命令：
+git init 
+git status
+git add .
+git commit -m ""
+git push -u originn
