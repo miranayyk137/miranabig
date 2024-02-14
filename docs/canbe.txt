@@ -1,0 +1,6 @@
+canbe
+this liabrury can be science
+1science
+2language do
+3模仿numpy，及开始。
+1

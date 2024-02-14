@@ -1,2 +1,2 @@
-这是一个Python第三方库
+miranabig is a python libarary.
 1
