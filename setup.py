@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = "Miranabig",
-    version = "1.0.3",
+    version = "1.0.4",
     author = "Mirana",
     author_email = "yyk153220095765432@163.com",
     url = "https://gitee.com/Mirana/Miranabig",
