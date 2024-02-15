@@ -1,2 +1,5 @@
 miranabig is a python libarary.
-1
+
+miranabig 是一个Python第三方库。
+
+欢迎大家前来参考，以及指导。
