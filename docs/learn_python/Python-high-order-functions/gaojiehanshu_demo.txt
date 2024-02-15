@@ -1,0 +1,65 @@
+gaojiehanshu_demo
+高阶函数的例子
+在Python中，有许多内置的高阶函数，如map()、filter()、reduce()、sorted()和zip()等。下面我将给出一些具体的例子：
+
+map()函数
+
+map()函数是Python中的一个高阶函数，它接受一个函数和一个可迭代对象作为参数，将函数应用于可迭代对象的每个元素，并返回一个包含结果的迭代器。例如，假设我们有一个函数add_one，它将整数加一，我们可以使用map()函数将其应用于一个列表：
+
+def add_one(x):
+    return x + 1
+
+numbers = [1, 2, 3, 4, 5]
+result = map(add_one, numbers)
+print(list(result))  # 输出 [2, 3, 4, 5, 6]
+
+
+filter()函数
+
+filter()函数也是一个高阶函数，它接受一个函数和一个可迭代对象作为参数，将函数应用于可迭代对象的每个元素，并返回一个包含满足条件的元素的迭代器。例如，假设我们有一个函数is_even，它检查整数是否为偶数，我们可以使用filter()函数将其应用于一个列表：
+
+def is_even(x):
+    return x % 2 == 0
+
+numbers = [1, 2, 3, 4, 5]
+result = filter(is_even, numbers)
+print(list(result))  # 输出 [2, 4]
+
+
+reduce()函数
+
+reduce()函数是Python中的一个高阶函数，它接受一个函数和一个可迭代对象作为参数，将函数应用于可迭代对象的每个元素，并返回一个包含最终结果的值。例如，假设我们有一个函数sum_up，它将一组数字相加，我们可以使用reduce()函数将其应用于一个列表：
+
+from functools import reduce
+
+def sum_up(x, y):
+    return x + y
+
+numbers = [1, 2, 3, 4, 5]
+result = reduce(sum_up, numbers)
+print(result)  # 输出 15
+
+
+sorted()函数
+
+sorted()函数是Python中的一个高阶函数，它接受一个函数和一个可迭代对象作为参数，将函数应用于可迭代对象的每个元素，并根据函数的返回值对元素进行排序，然后返回一个包含排序后元素的列表。例如，假设我们有一个函数reverse_sort，它将整数反转排序，我们可以使用sorted()函数将其应用于一个列表：
+
+def reverse_sort(x):
+    return x * -1
+
+numbers = [1, 2, 3, 4, 5]
+result = sorted(numbers, key=reverse_sort)
+print(result)  # 输出 [5, 4, 3, 2, 1]
+
+
+zip()函数
+
+zip()函数是Python中的一个高阶函数，它接受一个或多个可迭代对象作为参数，将这些对象中的元素一一配对，并返回一个元组列表。例如，假设我们有两个列表names和ages，我们希望将它们按照相同的顺序合并为一个元组列表，我们可以使用zip()函数：
+
+names = ['Alice', 'Bob', 'Charlie']
+ages = [25, 30, 35]
+result = zip(names, ages)
+print(list(result))  # 输出 [(Alice, 25), (Bob, 30), (Charlie, 35)]
+
+
+以上就是Python中一些常见的高阶函数的例子。这些函数非常实用，可以极大地简化我们的代码，提高代码的可读性和可维护性。
