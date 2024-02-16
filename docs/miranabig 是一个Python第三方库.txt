@@ -1,2 +1,4 @@
-miranabig 是一个Python第三方库
+miranabig is a Python library.
+can: science.
+target: as_numpy.
 1
