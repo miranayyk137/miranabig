@@ -2,6 +2,8 @@ Version----
 。。。。。。
 Version----
 。。。。。。
+Version----1.2.0
+主代码更新迭代了一代
 Version----1.1.0
 整理文件框架
 Version----1.0.10
