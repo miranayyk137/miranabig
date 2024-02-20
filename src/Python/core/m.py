@@ -1,24 +1,21 @@
 # 小numpy库
-class mirananumpy:
+class Mirananumpy:
     def __init__(self, ndim):
-        self.ndim = ndim
-    def __ndim__():
-        pass
-    def ndim(self):
-        cout = 0
-        for item in [1,2,3,4],[2,3,4,5,6]:
+        count = 0
+        for item in ndim:
             if isinstance(item, list):
-                count += 1
-        return count
+                count+=1
+        self.ndim = count
+
 
 
 print("mirananumpy")
 print("请用mirananumpy创建一个数组: ")
 
- 
-x = mirananumpy([[1,2,3,4],[2,3,4,5,6]])
-print(x)
-x1 = x.ndim
-print(x1)
-x2 = x.ndim()
-print(x2)
+#list1 = [[1,2,3,4],[2,3,4,5,6]]
+#x = Mirananumpy(list1)
+
+x = Mirananumpy([[1,2,3,4],[2,3,4,5,6]])
+print(type(x))
+
+print(x.ndim)
