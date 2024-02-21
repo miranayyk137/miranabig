@@ -2,11 +2,11 @@ from setuptools import setup, find_packages
 
 setup(
     name = "Miranabig",
-    version = "1.0.5",
-    author = "Mirana",
-    author_email = "yyk153220095765432@163.com",
-    url = "https://github.com/mirana/miranabigs",
+    version = "1.0.6",
+    author = "Miranayyk137",
+    author_email = "yyk137298051321@163.com",
+    url = "https://github.com/miranayyk137/miranabig.git",
     decripition = "Miranaforbig",
-    packages = find_packages()
-    python _requires = '>=2.7, <=3.12',
+    packages = find_packages(),
+    python_requires = '>=2.7, <=3.12',
 )

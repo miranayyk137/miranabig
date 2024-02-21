@@ -2,6 +2,8 @@ Version----
 。。。。。。
 Version----
 。。。。。。
+Version----1.4.2
+快成功显示维度
 Version----1.4.1
 库成功显示多少维度
 Version----1.3.2
