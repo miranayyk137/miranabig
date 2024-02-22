@@ -22,3 +22,5 @@ x = np.array([1,2,3,4])
 
 print(type(x))
 print(x.ndim)
+
+第一次看或者有一些基础的朋友建议从__test.py开始看或者运行。

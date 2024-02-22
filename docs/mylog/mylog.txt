@@ -2,6 +2,8 @@ Version----
 。。。。。。
 Version----
 。。。。。。
+Version----1.5.1
+已经完成显示其和对话维度
 Version----1.4.2
 快成功显示维度
 Version----1.4.1
